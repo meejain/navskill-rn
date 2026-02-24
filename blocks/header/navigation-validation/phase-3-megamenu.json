@@ -1,0 +1,42 @@
+{
+  "triggerType": "click",
+  "columnCount": 0,
+  "hasImages": false,
+  "hasHoverBehavior": false,
+  "hasClickBehavior": true,
+  "hasBlockStructure": false,
+  "nestedLevels": 3,
+  "animationType": "slide-in-panel-right",
+  "hoverOutBehavior": "none",
+  "clickOutBehavior": "overlay-click-dismisses-nav",
+  "promotionalBlocks": [
+    {
+      "section": "Careers",
+      "items": [
+        { "text": "Find a role", "href": "/careers/find-a-role", "type": "cta-button" },
+        { "text": "Start your application", "href": "/careers/register-interest", "type": "cta-button" }
+      ]
+    }
+  ],
+  "gridStructure": "none-single-column-vertical-list",
+  "hasSearchForm": false,
+  "hasLocaleSelector": false,
+  "overlayBehavior": {
+    "hasOverlay": true,
+    "overlayType": "semi-transparent-dark",
+    "overlayColor": "rgba(32, 38, 49, 0.75)",
+    "overlayOpacity": "0.75",
+    "overlayDismisses": true
+  },
+  "confidence": 0.95,
+  "uncertainty": false,
+  "notes": [
+    "This site does NOT use a traditional dropdown megamenu. Navigation is a full-height right-side off-canvas slide-in panel (410px wide, teal bg rgb(22,208,197)).",
+    "All sub-menus use a slide-in-panel pattern: clicking a category slides the current list away and reveals sub-items with a back arrow button.",
+    "Maximum nesting depth is 3 levels (e.g., Equipment → Ships → individual ship classes).",
+    "No images, search forms, or locale selectors in the navigation panels.",
+    "The Careers section has CTA buttons at the bottom: 'Find a role' and 'Start your application' — styled as bordered buttons.",
+    "The 'Global operations' sub-menu under 'Locations & Operations' has empty/broken items (links to / with no text) — appears to be a data issue on the source site.",
+    "Navigation pattern: hamburger click → off-canvas panel slides in from right → category click → sub-panel slides in → back arrow returns to parent level."
+  ]
+}

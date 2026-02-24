@@ -1,0 +1,125 @@
+{
+  "allValidated": false,
+  "viewport": "375x812",
+  "components": [
+    {
+      "id": "mobile-banner",
+      "label": "Banner row (recruiting CTA) at mobile",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "mobile"
+    },
+    {
+      "id": "mobile-logo-row",
+      "label": "Logo row (centered logo + hamburger)",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "mobile"
+    },
+    {
+      "id": "mobile-hamburger-icon",
+      "label": "Hamburger icon button",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "mobile"
+    },
+    {
+      "id": "mobile-nav-panel",
+      "label": "Nav panel (full-width teal)",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "mobile"
+    },
+    {
+      "id": "mobile-close-button",
+      "label": "Close button (white circle ×)",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "mobile"
+    },
+    {
+      "id": "mobile-nav-items-list",
+      "label": "Main nav items list (9 items)",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "mobile"
+    },
+    {
+      "id": "mobile-sub-panel-what-we-do",
+      "label": "What we do sub-panel",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "mobile"
+    },
+    {
+      "id": "mobile-sub-panel-organisation",
+      "label": "Organisation sub-panel",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "mobile"
+    },
+    {
+      "id": "mobile-sub-panel-equipment",
+      "label": "Equipment sub-panel",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "mobile"
+    },
+    {
+      "id": "mobile-sub-panel-locations",
+      "label": "Locations & Operations sub-panel",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "mobile"
+    },
+    {
+      "id": "mobile-sub-panel-careers",
+      "label": "Careers sub-panel",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "mobile"
+    },
+    {
+      "id": "mobile-sub-panel-families",
+      "label": "Families & veterans sub-panel",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "mobile"
+    },
+    {
+      "id": "mobile-sub-panel-news",
+      "label": "News sub-panel",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "mobile"
+    },
+    {
+      "id": "mobile-back-button",
+      "label": "Back button in sub-panels",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "mobile"
+    },
+    {
+      "id": "mobile-dual-back-buttons",
+      "label": "Dual back buttons at nested levels",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "mobile"
+    },
+    {
+      "id": "mobile-cta-buttons",
+      "label": "CTA buttons (Find a role, Start your application)",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "mobile"
+    },
+    {
+      "id": "mobile-overlay",
+      "label": "Background overlay",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "mobile"
+    }
+  ]
+}

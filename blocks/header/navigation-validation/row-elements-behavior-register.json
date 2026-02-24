@@ -1,0 +1,96 @@
+{
+  "items": [
+    {
+      "id": "row-0-banner-marker",
+      "label": "Teal dot marker",
+      "type": "decoration",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "none",
+        "migratedDescription": "none"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "none",
+        "migratedDescription": "none"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "row-0-banner-text",
+      "label": "Recruiting now text",
+      "type": "text",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "none",
+        "migratedDescription": "none"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "none",
+        "migratedDescription": "none"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "row-0-banner-link",
+      "label": "Explore navy careers link",
+      "type": "link",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "underline animation scaleX 0 to 1 from left 0.3s ease via after pseudo-element",
+        "migratedDescription": "underline animation scaleX 0 to 1 via after pseudo-element white 1px underline with transform transition"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "navigates to careers page",
+        "migratedDescription": "navigates to careers page",
+        "sourceUrl": "/careers",
+        "migratedUrl": "/careers"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "row-0-logo",
+      "label": "Royal Navy logo/crest",
+      "type": "logo",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "cursor pointer",
+        "migratedDescription": "cursor pointer"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "navigates to homepage",
+        "migratedDescription": "navigates to homepage",
+        "sourceUrl": "/",
+        "migratedUrl": "/"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "row-0-hamburger",
+      "label": "Hamburger menu button",
+      "type": "button",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "background-color changes to rgba(255,255,255,0.2) with 0.3s transition",
+        "migratedDescription": "background-color changes to rgba(255,255,255,0.2) with 0.3s transition"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "opens off-canvas slide-in navigation panel from right with teal background",
+        "migratedDescription": "opens off-canvas slide-in navigation panel from right with teal background"
+      },
+      "status": "validated"
+    }
+  ],
+  "summary": {
+    "totalItems": 5,
+    "hoverMatches": 5,
+    "clickMatches": 5,
+    "totalValidated": 5,
+    "totalFailed": 0
+  },
+  "allValidated": true
+}

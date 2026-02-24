@@ -1,0 +1,34 @@
+{
+  "headerStructure": {
+    "rowCount": 1,
+    "type": "off-canvas-slide-in-panel",
+    "description": "Single header row with recruitment banner (left), logo (center), hamburger (right). Navigation is a right-side off-canvas panel."
+  },
+  "desktopMapping": {
+    "rows": 1,
+    "elements": ["recruitment-banner", "logo", "hamburger"],
+    "navPanelWidth": "410px",
+    "navPanelBg": "rgb(22, 208, 197)",
+    "navItems": 9,
+    "nestedLevels": 3,
+    "overlayColor": "rgba(32, 38, 49, 0.75)",
+    "hasSearchForm": false,
+    "hasLocaleSelector": false
+  },
+  "mobileMapping": "pending",
+  "megamenuMapping": {
+    "pattern": "off-canvas-slide-in-panel",
+    "triggerType": "click",
+    "animationType": "slide-in-panel-right",
+    "columnCount": 0,
+    "hasImages": false,
+    "nestedLevels": 3,
+    "hasCtaButtons": true
+  },
+  "validationReport": {
+    "structuralSimilarity": null,
+    "structuralMismatches": [],
+    "styleSimilarity": null
+  },
+  "status": "IN_PROGRESS"
+}

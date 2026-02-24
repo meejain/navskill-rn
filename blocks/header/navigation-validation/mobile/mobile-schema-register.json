@@ -1,0 +1,69 @@
+{
+  "allValidated": true,
+  "viewport": "375x812",
+  "components": [
+    {
+      "id": "mobile-banner",
+      "label": "Banner row (recruiting CTA)",
+      "sourceMatch": true,
+      "status": "validated",
+      "notes": "Banner visible on mobile, 46px height, navy background, smaller 10px text"
+    },
+    {
+      "id": "mobile-logo-row",
+      "label": "Logo row (centered logo + hamburger)",
+      "sourceMatch": true,
+      "status": "validated",
+      "notes": "64px height, logo centered, hamburger right, decorative lines at bottom"
+    },
+    {
+      "id": "mobile-nav-panel",
+      "label": "Nav panel (full-width slide-in)",
+      "sourceMatch": true,
+      "status": "validated",
+      "notes": "Full viewport width, teal background, slide-in from right"
+    },
+    {
+      "id": "mobile-close-button",
+      "label": "Close button (white circle ×)",
+      "sourceMatch": true,
+      "status": "validated",
+      "notes": "44×44px, white bg, border-radius 50%, top-right position"
+    },
+    {
+      "id": "mobile-nav-items",
+      "label": "Top-level nav items (9 items)",
+      "sourceMatch": true,
+      "status": "validated",
+      "notes": "2 links (Home, Events) + 7 triggers with sub-panels"
+    },
+    {
+      "id": "mobile-sub-panels",
+      "label": "Slide-in sub-panels (26 total)",
+      "sourceMatch": true,
+      "status": "validated",
+      "notes": "Slide-in-panel pattern, full-width on mobile"
+    },
+    {
+      "id": "mobile-dual-back-buttons",
+      "label": "Dual back buttons at nested levels",
+      "sourceMatch": true,
+      "status": "validated",
+      "notes": "Top back returns to main menu, immediate back returns one level"
+    },
+    {
+      "id": "mobile-cta-buttons",
+      "label": "CTA buttons (Find a role, Start your application)",
+      "sourceMatch": true,
+      "status": "validated",
+      "notes": "Pill-shaped navy border, uppercase text, arrow icon"
+    },
+    {
+      "id": "mobile-overlay",
+      "label": "Background overlay",
+      "sourceMatch": true,
+      "status": "validated",
+      "notes": "Semi-transparent overlay behind nav panel"
+    }
+  ]
+}

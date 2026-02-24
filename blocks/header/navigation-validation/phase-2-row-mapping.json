@@ -1,0 +1,142 @@
+{
+  "rows": [
+    {
+      "index": 0,
+      "alignmentGroups": [
+        {
+          "position": "left",
+          "elements": [
+            {
+              "type": "marker",
+              "description": "Teal/turquoise dot (9x9px, border-radius 50%)",
+              "color": "rgb(22, 208, 197)"
+            },
+            {
+              "type": "text",
+              "description": "Recruiting now.",
+              "font": "Big Shoulders Text, Arial",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "color": "rgb(255, 255, 255)",
+              "textTransform": "uppercase",
+              "letterSpacing": "1.6px"
+            },
+            {
+              "type": "link",
+              "description": "Explore navy careers",
+              "href": "/careers",
+              "font": "Big Shoulders Text, Arial",
+              "color": "rgb(255, 255, 255)",
+              "textTransform": "uppercase",
+              "hoverEffect": "cursor pointer, underline animation"
+            }
+          ]
+        },
+        {
+          "position": "center",
+          "elements": [
+            {
+              "type": "logo",
+              "description": "Royal Navy SVG crest/badge logo, inline SVG (not img), positioned absolutely center",
+              "width": "60px",
+              "height": "70px",
+              "link": "/",
+              "logoFormat": "inline-svg",
+              "extendsBelow": true,
+              "transition": "0.6s"
+            }
+          ]
+        },
+        {
+          "position": "right",
+          "elements": [
+            {
+              "type": "hamburger",
+              "description": "Hamburger menu button with 3 horizontal SVG rect lines",
+              "width": "40px",
+              "height": "40px",
+              "iconType": "svg-rects-3-lines",
+              "ariaLabel": "Open Main Navigation"
+            }
+          ]
+        }
+      ],
+      "spacing": {
+        "headerHeight": "64px",
+        "innerPadding": "0 20px",
+        "display": "flex",
+        "position": "fixed",
+        "zIndex": "10"
+      },
+      "backgroundDifference": "transparent (rgba(0,0,0,0)), overlays hero content",
+      "hasImages": true,
+      "hasHoverBehavior": true,
+      "hasClickBehavior": true,
+      "hasSearchForm": false,
+      "hasLocaleSelector": false,
+      "hasHamburgerIcon": true,
+      "hamburgerIconSelector": ".Hamburger_hamburger__ZLGyn",
+      "hamburgerClickBehavior": "Opens right-side off-canvas slide-in navigation panel (410px wide) with teal background. Body gets class 'hidden' with overflow:hidden. Overlay (::before pseudo on mainWrapper) with rgba(32,38,49,0.75) covers page content.",
+      "hamburgerHoverEffect": "Background color changes to rgba(255,255,255,0.2) with 0.3s transition on background-color and border-color",
+      "hamburgerAnimation": {
+        "type": "separate-close-button",
+        "method": "The hamburger is in the header bar; when nav opens, a separate white circular close button (×) appears in the top-right of the nav panel. Not a morph animation — two distinct elements.",
+        "closeButtonStyle": "white circle, border-radius:50%, 2px solid white border, contains × icon",
+        "transition": "nav panel slides in from right with 0.5s transition"
+      }
+    }
+  ],
+  "offCanvasNavigation": {
+    "type": "right-slide-in-panel",
+    "width": "410px",
+    "backgroundColor": "rgb(22, 208, 197)",
+    "position": "fixed",
+    "transition": "0.5s",
+    "overlayBehavior": {
+      "hasOverlay": true,
+      "overlayType": "semi-transparent-dark",
+      "overlayColor": "rgba(32, 38, 49, 0.75)",
+      "overlayMethod": "::before pseudo-element on .offCanvas_mainWrapper",
+      "overlayDismisses": true,
+      "bodyClass": "hidden",
+      "bodyOverflow": "hidden"
+    },
+    "closeButton": {
+      "backgroundColor": "rgb(255, 255, 255)",
+      "border": "2px solid rgb(255, 255, 255)",
+      "borderRadius": "50%",
+      "position": "top-right of nav panel"
+    },
+    "items": [
+      { "text": "Home", "type": "link", "href": "/", "hasSubmenu": false },
+      { "text": "What we do", "type": "button", "hasSubmenu": true, "hasArrow": true },
+      { "text": "Organisation", "type": "button", "hasSubmenu": true, "hasArrow": true },
+      { "text": "Equipment", "type": "button", "hasSubmenu": true, "hasArrow": true },
+      { "text": "Locations & Operations", "type": "button", "hasSubmenu": true, "hasArrow": true },
+      { "text": "Careers", "type": "button", "hasSubmenu": true, "hasArrow": true },
+      { "text": "Families & veterans", "type": "button", "hasSubmenu": true, "hasArrow": true },
+      { "text": "Events", "type": "link", "href": "/events", "hasSubmenu": false },
+      { "text": "News", "type": "button", "hasSubmenu": true, "hasArrow": true }
+    ],
+    "itemStyling": {
+      "fontFamily": "Big Shoulders Text, Arial",
+      "fontSize": "18px",
+      "fontWeight": "700",
+      "color": "rgb(0, 22, 59)",
+      "textTransform": "uppercase",
+      "letterSpacing": "1.8px",
+      "borderBottom": "1px solid rgb(10, 176, 167)"
+    }
+  },
+  "confidence": 0.95,
+  "uncertainty": false,
+  "notes": [
+    "This is NOT a traditional multi-row header with horizontal nav links. It is a single-row header bar with a hamburger that opens a full-height right-side off-canvas navigation panel.",
+    "The nav panel uses a slide-in pattern from the right, 410px wide, with teal background rgb(22,208,197).",
+    "7 of 9 nav items have sub-menus (buttons with arrows). Home and Events are direct links.",
+    "No search form or locale selector found anywhere in the header or nav panel.",
+    "The logo is an inline SVG (Royal Navy crest), not an img element. It extends 6px below the header bar (70px vs 64px header height).",
+    "The overlay is implemented via ::before pseudo-element on mainWrapper with rgba(32,38,49,0.75).",
+    "Font used throughout is 'Big Shoulders Text' — a Google Font, uppercase, bold, with letter-spacing."
+  ]
+}

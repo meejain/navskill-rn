@@ -1,0 +1,304 @@
+{
+  "navigationPattern": "off-canvas-slide-in-panel",
+  "totalItemsAnalyzed": 9,
+  "navTriggers": [
+    {
+      "index": 0,
+      "label": "Home",
+      "triggerType": "link",
+      "href": "/",
+      "hasPanel": false,
+      "hoverBehavior": "none",
+      "clickBehavior": "navigates to homepage"
+    },
+    {
+      "index": 1,
+      "label": "What we do",
+      "triggerType": "button",
+      "hasPanel": true,
+      "hoverBehavior": "none",
+      "clickBehavior": "slides-in sub-panel from right",
+      "panelItems": [
+        { "label": "What we do", "type": "link", "href": "/what-we-do", "hoverBehavior": "none", "clickBehavior": "navigates" },
+        { "label": "Prevent", "type": "link", "href": "/what-we-do/prevent", "hoverBehavior": "none", "clickBehavior": "navigates" },
+        { "label": "Protect", "type": "link", "href": "/what-we-do/protect", "hoverBehavior": "none", "clickBehavior": "navigates" },
+        { "label": "Respond", "type": "link", "href": "/what-we-do/respond", "hoverBehavior": "none", "clickBehavior": "navigates" }
+      ],
+      "panelLayoutDetails": {
+        "layout": "vertical-list",
+        "width": "410px",
+        "hasBackButton": true,
+        "backButtonLabel": "What we do"
+      }
+    },
+    {
+      "index": 2,
+      "label": "Organisation",
+      "triggerType": "button",
+      "hasPanel": true,
+      "hoverBehavior": "none",
+      "clickBehavior": "slides-in sub-panel from right",
+      "panelItems": [
+        { "label": "Organisation", "type": "link", "href": "/organisation", "hoverBehavior": "none", "clickBehavior": "navigates" },
+        { "label": "Surface Fleet", "type": "link", "href": "/organisation/surface-fleet", "hoverBehavior": "none", "clickBehavior": "navigates" },
+        { "label": "Submarine Service", "type": "link", "href": "/organisation/submarine-service", "hoverBehavior": "none", "clickBehavior": "navigates" },
+        { "label": "Fleet Air Arm", "type": "link", "href": "/organisation/fleet-air-arm", "hoverBehavior": "none", "clickBehavior": "navigates" },
+        { "label": "Royal Marines", "type": "link", "href": "/organisation/royal-marines", "hoverBehavior": "none", "clickBehavior": "navigates" },
+        { "label": "Royal Fleet Auxiliary", "type": "link", "href": "/organisation/rfa", "hoverBehavior": "none", "clickBehavior": "navigates" },
+        { "label": "Maritime Reserves", "type": "link", "href": "/organisation/maritime-reserves", "hoverBehavior": "none", "clickBehavior": "navigates" },
+        { "label": "Units & squadrons", "type": "link", "href": "/organisation/units-and-squadrons", "hoverBehavior": "none", "clickBehavior": "navigates" },
+        {
+          "label": "Our people",
+          "type": "button",
+          "hasSubPanel": true,
+          "hoverBehavior": "none",
+          "clickBehavior": "slides-in sub-panel",
+          "subItems": [
+            { "label": "Our people", "type": "link", "href": "/organisation/our-people" },
+            { "label": "Duty & commitment", "type": "link", "href": "/organisation/our-people/duty-and-commitment" },
+            { "label": "Our values", "type": "link", "href": "/organisation/our-people/our-values" },
+            { "label": "Opportunities for all", "type": "link", "href": "/organisation/our-people/opportunities-for-all" },
+            { "label": "Leadership", "type": "link", "href": "/organisation/our-people/leadership" }
+          ]
+        },
+        { "label": "Cadets & youth", "type": "link", "href": "/organisation/cadets-and-youth", "hoverBehavior": "none", "clickBehavior": "navigates" }
+      ],
+      "panelLayoutDetails": {
+        "layout": "vertical-list",
+        "width": "410px",
+        "hasBackButton": true,
+        "backButtonLabel": "Organisation"
+      }
+    },
+    {
+      "index": 3,
+      "label": "Equipment",
+      "triggerType": "button",
+      "hasPanel": true,
+      "hoverBehavior": "none",
+      "clickBehavior": "slides-in sub-panel from right",
+      "panelItems": [
+        { "label": "All equipment", "type": "link", "href": "/equipment", "hoverBehavior": "none", "clickBehavior": "navigates" },
+        {
+          "label": "Ships",
+          "type": "button",
+          "hasSubPanel": true,
+          "hoverBehavior": "none",
+          "clickBehavior": "slides-in sub-panel",
+          "subItems": [
+            { "label": "All ships", "href": "/equipment/ships" },
+            { "label": "Albion Class", "href": "/equipment/ships/albion-class" },
+            { "label": "Archer Class", "href": "/equipment/ships/archer-class" },
+            { "label": "Bay Class", "href": "/equipment/ships/bay-class" },
+            { "label": "Casualty Ship", "href": "/equipment/ships/casualty-class" },
+            { "label": "City Class", "href": "/equipment/ships/city-class" },
+            { "label": "Cutlass Class", "href": "/equipment/ships/cutlass-class" },
+            { "label": "Daring Class", "href": "/equipment/ships/daring-class" },
+            { "label": "Duke Class", "href": "/equipment/ships/duke-class" },
+            { "label": "Fort Class", "href": "/equipment/ships/fort-class" },
+            { "label": "Hunt Class", "href": "/equipment/ships/hunt-class" },
+            { "label": "Inspiration Class", "href": "/equipment/ships/inspiration-class" },
+            { "label": "Queen Elizabeth Class", "href": "/equipment/ships/queen-elizabeth-class" },
+            { "label": "River Class", "href": "/equipment/ships/river-class" },
+            { "label": "Sandown Class", "href": "/equipment/ships/sandown-class" },
+            { "label": "Tide Class", "href": "/equipment/ships/tide-class" },
+            { "label": "Wave Class", "href": "/equipment/ships/wave-class" }
+          ]
+        },
+        {
+          "label": "Submarines",
+          "type": "button",
+          "hasSubPanel": true,
+          "hoverBehavior": "none",
+          "clickBehavior": "slides-in sub-panel",
+          "subItems": [
+            { "label": "All submarines", "href": "/equipment/submarine" },
+            { "label": "Astute Class", "href": "/equipment/submarine/astute-class" },
+            { "label": "Dreadnought Class", "href": "/equipment/submarine/dreadnought-class" },
+            { "label": "Trafalgar Class", "href": "/equipment/submarine/trafalgar-class" },
+            { "label": "Vanguard Class", "href": "/equipment/submarine/vanguard-class" }
+          ]
+        },
+        {
+          "label": "Aircraft",
+          "type": "button",
+          "hasSubPanel": true,
+          "hoverBehavior": "none",
+          "clickBehavior": "slides-in sub-panel",
+          "subItems": [
+            { "label": "All aircraft", "href": "/equipment/aircraft" },
+            { "label": "F-35 Lightning", "href": "/equipment/aircraft/f-35" },
+            { "label": "Merlin", "href": "/equipment/aircraft/merlin" },
+            { "label": "Wildcat", "href": "/equipment/aircraft/wildcat" }
+          ]
+        },
+        {
+          "label": "Royal Marines",
+          "type": "button",
+          "hasSubPanel": true,
+          "hoverBehavior": "none",
+          "clickBehavior": "slides-in sub-panel",
+          "subItems": [
+            { "label": "All equipment", "href": "/equipment/commando" },
+            { "label": "By Sea", "href": "/equipment/commando/by-sea" },
+            { "label": "By Land", "href": "/equipment/commando/by-land" },
+            { "label": "By Air", "href": "/equipment/commando/by-air" },
+            { "label": "Weaponry", "href": "/equipment/commando/weaponry" }
+          ]
+        }
+      ],
+      "panelLayoutDetails": {
+        "layout": "vertical-list",
+        "width": "410px",
+        "hasBackButton": true,
+        "backButtonLabel": "Equipment"
+      }
+    },
+    {
+      "index": 4,
+      "label": "Locations & Operations",
+      "triggerType": "button",
+      "hasPanel": true,
+      "hoverBehavior": "none",
+      "clickBehavior": "slides-in sub-panel from right",
+      "panelItems": [
+        { "label": "All locations & operations", "type": "link", "href": "/locations-and-operations", "hoverBehavior": "none", "clickBehavior": "navigates" },
+        {
+          "label": "Carrier Strike Group 2025",
+          "type": "button",
+          "hasSubPanel": true,
+          "hoverBehavior": "none",
+          "clickBehavior": "slides-in sub-panel",
+          "subItems": [
+            { "label": "Carrier Strike Group", "href": "/carrier-strike-group" },
+            { "label": "Carrier Strike Group Challenge", "href": "/carrier-strike-group/challenge" },
+            { "label": "Meet the Fleet", "href": "/carrier-strike-group/meet-the-fleet" }
+          ]
+        },
+        { "label": "Bases & stations", "type": "link", "href": "/locations-and-operations/bases-and-stations", "hoverBehavior": "none", "clickBehavior": "navigates" },
+        {
+          "label": "Global operations",
+          "type": "button",
+          "hasSubPanel": true,
+          "hoverBehavior": "none",
+          "clickBehavior": "slides-in sub-panel",
+          "subItems": [
+            { "label": "All global operations", "href": "/locations-and-operations/global-operations" }
+          ],
+          "notes": "Source site has empty/broken items linking to / with no text — only the overview link is valid"
+        },
+        {
+          "label": "Kings Harbour Master",
+          "type": "button",
+          "hasSubPanel": true,
+          "hoverBehavior": "none",
+          "clickBehavior": "slides-in sub-panel",
+          "subItems": [
+            { "label": "KHM Clyde", "type": "button", "hasSubPanel": true },
+            { "label": "KHM Plymouth", "type": "button", "hasSubPanel": true },
+            { "label": "KHM Portsmouth", "type": "button", "hasSubPanel": true }
+          ]
+        }
+      ],
+      "panelLayoutDetails": {
+        "layout": "vertical-list",
+        "width": "410px",
+        "hasBackButton": true,
+        "backButtonLabel": "Locations & Operations"
+      }
+    },
+    {
+      "index": 5,
+      "label": "Careers",
+      "triggerType": "button",
+      "hasPanel": true,
+      "hoverBehavior": "none",
+      "clickBehavior": "slides-in sub-panel from right",
+      "panelItems": [
+        { "label": "Royal Navy Careers", "type": "link", "href": "/careers", "hoverBehavior": "none", "clickBehavior": "navigates" },
+        { "label": "Get in touch Careers", "type": "link", "href": "/careers/get-in-touch-careers", "hoverBehavior": "none", "clickBehavior": "navigates" },
+        { "label": "Why Navy", "type": "button", "hasSubPanel": true, "hoverBehavior": "none", "clickBehavior": "slides-in sub-panel" },
+        { "label": "Life in the Navy", "type": "button", "hasSubPanel": true, "hoverBehavior": "none", "clickBehavior": "slides-in sub-panel" },
+        { "label": "Joining options", "type": "button", "hasSubPanel": true, "hoverBehavior": "none", "clickBehavior": "slides-in sub-panel" },
+        { "label": "Services", "type": "button", "hasSubPanel": true, "hoverBehavior": "none", "clickBehavior": "slides-in sub-panel" },
+        { "label": "Professions", "type": "button", "hasSubPanel": true, "hoverBehavior": "none", "clickBehavior": "slides-in sub-panel" },
+        { "label": "Royal Marines", "type": "button", "hasSubPanel": true, "hoverBehavior": "none", "clickBehavior": "slides-in sub-panel" },
+        { "label": "Royal Fleet Auxiliary", "type": "button", "hasSubPanel": true, "hoverBehavior": "none", "clickBehavior": "slides-in sub-panel" },
+        { "label": "Reserves", "type": "button", "hasSubPanel": true, "hoverBehavior": "none", "clickBehavior": "slides-in sub-panel" },
+        { "label": "Joining process", "type": "button", "hasSubPanel": true, "hoverBehavior": "none", "clickBehavior": "slides-in sub-panel" }
+      ],
+      "ctaButtons": [
+        { "label": "Find a role", "href": "/careers/find-a-role", "style": "bordered-button-with-arrow" },
+        { "label": "Start your application", "href": "/careers/register-interest", "style": "bordered-button-with-arrow" }
+      ],
+      "panelLayoutDetails": {
+        "layout": "vertical-list-with-cta-buttons",
+        "width": "410px",
+        "hasBackButton": true,
+        "backButtonLabel": "Careers"
+      }
+    },
+    {
+      "index": 6,
+      "label": "Families & veterans",
+      "triggerType": "button",
+      "hasPanel": true,
+      "hoverBehavior": "none",
+      "clickBehavior": "slides-in sub-panel from right",
+      "panelItems": [
+        { "label": "Families & veterans", "type": "link", "href": "/families-and-veterans", "hoverBehavior": "none", "clickBehavior": "navigates" },
+        { "label": "Families", "type": "button", "hasSubPanel": true, "hoverBehavior": "none", "clickBehavior": "slides-in sub-panel" },
+        { "label": "Veterans", "type": "link", "href": "/families-and-veterans/veterans", "hoverBehavior": "none", "clickBehavior": "navigates" }
+      ],
+      "panelLayoutDetails": {
+        "layout": "vertical-list",
+        "width": "410px",
+        "hasBackButton": true,
+        "backButtonLabel": "Families & veterans"
+      }
+    },
+    {
+      "index": 7,
+      "label": "Events",
+      "triggerType": "link",
+      "href": "/events",
+      "hasPanel": false,
+      "hoverBehavior": "none",
+      "clickBehavior": "navigates to events page"
+    },
+    {
+      "index": 8,
+      "label": "News",
+      "triggerType": "button",
+      "hasPanel": true,
+      "hoverBehavior": "none",
+      "clickBehavior": "slides-in sub-panel from right",
+      "panelItems": [
+        { "label": "News Home", "type": "link", "href": "/news", "hoverBehavior": "none", "clickBehavior": "navigates" },
+        { "label": "Fighting Arms", "type": "link", "href": "/news/topic/fighting-arms", "hoverBehavior": "none", "clickBehavior": "navigates" },
+        { "label": "Operational Activity", "type": "link", "href": "/news/topic/operational-activity", "hoverBehavior": "none", "clickBehavior": "navigates" },
+        { "label": "Equipment and Tech", "type": "link", "href": "/news/topic/equipment-and-tech", "hoverBehavior": "none", "clickBehavior": "navigates" },
+        { "label": "People", "type": "link", "href": "/news/topic/people", "hoverBehavior": "none", "clickBehavior": "navigates" },
+        { "label": "Community", "type": "link", "href": "/news/topic/community", "hoverBehavior": "none", "clickBehavior": "navigates" },
+        {
+          "label": "Navy News Magazine",
+          "type": "button",
+          "hasSubPanel": true,
+          "hoverBehavior": "none",
+          "clickBehavior": "slides-in sub-panel",
+          "subItems": [
+            { "label": "Contact Us", "href": "/news/navy-news/contact-us" },
+            { "label": "Archive", "href": "/news/navy-news/archive" },
+            { "label": "Navy News", "href": "/news/navy-news" }
+          ]
+        }
+      ],
+      "panelLayoutDetails": {
+        "layout": "vertical-list",
+        "width": "410px",
+        "hasBackButton": true,
+        "backButtonLabel": "News"
+      }
+    }
+  ]
+}

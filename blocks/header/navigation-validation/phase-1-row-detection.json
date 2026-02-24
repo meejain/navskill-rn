@@ -1,0 +1,12 @@
+{
+  "rowCount": 1,
+  "confidence": 0.95,
+  "uncertainty": false,
+  "notes": [
+    "Single header row containing three alignment groups: left (recruitment CTA text), center (Royal Navy logo/crest), right (hamburger menu icon)",
+    "Header overlays the hero section with a semi-transparent/dark background",
+    "Navigation is a full-screen overlay panel triggered by hamburger icon — not a traditional multi-row header with dropdown menus",
+    "The hamburger icon is visible at desktop viewport (1440px), indicating the site uses a full-screen nav overlay at all breakpoints",
+    "A thin horizontal line separates the header from the hero content below"
+  ]
+}

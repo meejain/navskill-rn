@@ -1,0 +1,107 @@
+{
+  "viewport": "375x812",
+  "allCovered": true,
+  "headings": [
+    {
+      "label": "Home",
+      "type": "link",
+      "clicked": true,
+      "hasSubPanel": false,
+      "behaviorMatches": true,
+      "notes": "Direct link to /, no sub-panel expected"
+    },
+    {
+      "label": "What we do",
+      "type": "panel-trigger",
+      "clicked": true,
+      "hasSubPanel": true,
+      "subItemCount": 5,
+      "behaviorMatches": true,
+      "pattern": "slide-in-panel",
+      "backButtonWorks": true,
+      "notes": "Sub-panel slides in with back button. Items: What we do (overview), What we do, Prevent, Protect, Respond"
+    },
+    {
+      "label": "Organisation",
+      "type": "panel-trigger",
+      "clicked": true,
+      "hasSubPanel": true,
+      "subItemCount": 11,
+      "nestedTriggers": ["Our people"],
+      "behaviorMatches": true,
+      "pattern": "slide-in-panel",
+      "backButtonWorks": true,
+      "dualBackButtonsTested": true,
+      "notes": "Sub-panel with 11 items. Our people nested trigger tested — opens with dual back buttons (← ORGANISATION + ← OUR PEOPLE). 6 nested items verified."
+    },
+    {
+      "label": "Equipment",
+      "type": "panel-trigger",
+      "clicked": true,
+      "hasSubPanel": true,
+      "subItemCount": 6,
+      "nestedTriggers": ["Ships", "Submarines", "Aircraft", "Royal Marines"],
+      "behaviorMatches": true,
+      "pattern": "slide-in-panel",
+      "backButtonWorks": true,
+      "notes": "Sub-panel with Equipment overview, All equipment, and 4 nested triggers (Ships, Submarines, Aircraft, Royal Marines)"
+    },
+    {
+      "label": "Locations & Operations",
+      "type": "panel-trigger",
+      "clicked": true,
+      "hasSubPanel": true,
+      "subItemCount": 6,
+      "nestedTriggers": ["Carrier Strike Group 2025", "Global operations", "Kings Harbour Master"],
+      "behaviorMatches": true,
+      "pattern": "slide-in-panel",
+      "backButtonWorks": true,
+      "notes": "Sub-panel with overview links, Bases & stations link, and 3 nested triggers"
+    },
+    {
+      "label": "Careers",
+      "type": "panel-trigger",
+      "clicked": true,
+      "hasSubPanel": true,
+      "subItemCount": 14,
+      "nestedTriggers": ["Why Navy", "Life in the Navy", "Joining options", "Services", "Professions", "Royal Marines", "Royal Fleet Auxiliary", "Reserves", "Joining process"],
+      "ctaButtons": ["Find a role", "Start your application"],
+      "behaviorMatches": true,
+      "pattern": "slide-in-panel",
+      "backButtonWorks": true,
+      "notes": "Largest panel: overview links, Get in touch Careers, 9 nested triggers, 2 CTA buttons at bottom. Both CTAs verified by scrolling."
+    },
+    {
+      "label": "Families & veterans",
+      "type": "panel-trigger",
+      "clicked": true,
+      "hasSubPanel": true,
+      "subItemCount": 4,
+      "nestedTriggers": ["Families"],
+      "behaviorMatches": true,
+      "pattern": "slide-in-panel",
+      "backButtonWorks": true,
+      "notes": "Sub-panel with 2 overview links, Families nested trigger, Veterans link"
+    },
+    {
+      "label": "Events",
+      "type": "link",
+      "clicked": true,
+      "hasSubPanel": false,
+      "behaviorMatches": true,
+      "notes": "Direct link to /events, no sub-panel expected"
+    },
+    {
+      "label": "News",
+      "type": "panel-trigger",
+      "clicked": true,
+      "hasSubPanel": true,
+      "subItemCount": 9,
+      "nestedTriggers": ["Navy News Magazine"],
+      "behaviorMatches": true,
+      "pattern": "slide-in-panel",
+      "backButtonWorks": true,
+      "notes": "Sub-panel with News overview, News Home, 5 topic links, Navy News Magazine nested trigger"
+    }
+  ]
+}

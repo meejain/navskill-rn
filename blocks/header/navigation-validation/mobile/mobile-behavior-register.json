@@ -1,0 +1,153 @@
+{
+  "allValidated": true,
+  "viewport": "375x812",
+  "items": [
+    {
+      "id": "mobile-hamburger",
+      "label": "Hamburger icon",
+      "tapMatch": { "matches": true, "notes": "Opens nav panel on tap" },
+      "behaviorMatch": { "matches": true, "notes": "Panel slides in from right, overlay appears, body overflow hidden, aria-expanded set" },
+      "animationMatch": { "matches": true, "sourceSpeed": "0.5s", "migratedSpeed": "0.5s", "type": "transform translateX" },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-close-button",
+      "label": "Close button (white circle ×)",
+      "tapMatch": { "matches": true, "notes": "Closes nav panel on tap" },
+      "behaviorMatch": { "matches": true, "notes": "Panel slides out, overlay fades, body overflow restored, sub-panels reset after 500ms" },
+      "animationMatch": { "matches": true, "sourceSpeed": "0.5s", "migratedSpeed": "0.5s" },
+      "styling": { "width": "44px", "height": "44px", "borderRadius": "50%", "bg": "rgb(255,255,255)", "top": "10px", "right": "10px" },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-overlay",
+      "label": "Background overlay",
+      "tapMatch": { "matches": true, "notes": "Clicking overlay dismisses nav panel" },
+      "behaviorMatch": { "matches": true, "notes": "Semi-transparent overlay, opacity transition 0.5s" },
+      "animationMatch": { "matches": true, "sourceSpeed": "0.5s", "migratedSpeed": "0.5s", "type": "opacity" },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-escape-key",
+      "label": "Escape key dismiss",
+      "tapMatch": { "matches": true, "notes": "Pressing Escape closes nav panel" },
+      "behaviorMatch": { "matches": true, "notes": "Keyboard handler on document listens for Escape" },
+      "animationMatch": { "matches": true, "sourceSpeed": "0.5s", "migratedSpeed": "0.5s" },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-heading-home",
+      "label": "Home (link)",
+      "tapMatch": { "matches": true, "notes": "Direct link to /" },
+      "behaviorMatch": { "matches": true, "pattern": "link" },
+      "animationMatch": { "matches": true },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-heading-what-we-do",
+      "label": "What we do (panel trigger)",
+      "tapMatch": { "matches": true, "notes": "Opens sub-panel with slide-in animation" },
+      "behaviorMatch": { "matches": true, "pattern": "slide-in-panel", "subItemCount": 5, "backButton": true },
+      "animationMatch": { "matches": true, "sourceSpeed": "0.5s", "migratedSpeed": "0.5s", "type": "transform translateX" },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-heading-organisation",
+      "label": "Organisation (panel trigger)",
+      "tapMatch": { "matches": true, "notes": "Opens sub-panel with slide-in animation" },
+      "behaviorMatch": { "matches": true, "pattern": "slide-in-panel", "subItemCount": 11, "backButton": true, "nestedTriggers": ["Our people"] },
+      "animationMatch": { "matches": true, "sourceSpeed": "0.5s", "migratedSpeed": "0.5s", "type": "transform translateX" },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-heading-organisation-our-people",
+      "label": "Our people nested panel (dual back buttons)",
+      "tapMatch": { "matches": true, "notes": "Opens nested sub-panel from Organisation" },
+      "behaviorMatch": { "matches": true, "pattern": "slide-in-panel", "subItemCount": 6, "dualBackButtons": true, "topBack": "Organisation", "immediateBack": "Our people" },
+      "animationMatch": { "matches": true, "sourceSpeed": "0.5s", "migratedSpeed": "0.5s", "type": "transform translateX" },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-heading-equipment",
+      "label": "Equipment (panel trigger)",
+      "tapMatch": { "matches": true, "notes": "Opens sub-panel with slide-in animation" },
+      "behaviorMatch": { "matches": true, "pattern": "slide-in-panel", "subItemCount": 6, "backButton": true, "nestedTriggers": ["Ships", "Submarines", "Aircraft", "Royal Marines"] },
+      "animationMatch": { "matches": true, "sourceSpeed": "0.5s", "migratedSpeed": "0.5s", "type": "transform translateX" },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-heading-locations",
+      "label": "Locations & Operations (panel trigger)",
+      "tapMatch": { "matches": true, "notes": "Opens sub-panel with slide-in animation" },
+      "behaviorMatch": { "matches": true, "pattern": "slide-in-panel", "subItemCount": 6, "backButton": true, "nestedTriggers": ["Carrier Strike Group 2025", "Global operations", "Kings Harbour Master"] },
+      "animationMatch": { "matches": true, "sourceSpeed": "0.5s", "migratedSpeed": "0.5s", "type": "transform translateX" },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-heading-careers",
+      "label": "Careers (panel trigger)",
+      "tapMatch": { "matches": true, "notes": "Opens sub-panel with slide-in animation" },
+      "behaviorMatch": { "matches": true, "pattern": "slide-in-panel", "subItemCount": 14, "backButton": true, "nestedTriggers": ["Why Navy", "Life in the Navy", "Joining options", "Services", "Professions", "Royal Marines", "Royal Fleet Auxiliary", "Reserves", "Joining process"], "ctaButtons": ["Find a role", "Start your application"] },
+      "animationMatch": { "matches": true, "sourceSpeed": "0.5s", "migratedSpeed": "0.5s", "type": "transform translateX" },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-heading-families",
+      "label": "Families & veterans (panel trigger)",
+      "tapMatch": { "matches": true, "notes": "Opens sub-panel with slide-in animation" },
+      "behaviorMatch": { "matches": true, "pattern": "slide-in-panel", "subItemCount": 4, "backButton": true, "nestedTriggers": ["Families"] },
+      "animationMatch": { "matches": true, "sourceSpeed": "0.5s", "migratedSpeed": "0.5s", "type": "transform translateX" },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-heading-events",
+      "label": "Events (link)",
+      "tapMatch": { "matches": true, "notes": "Direct link to /events" },
+      "behaviorMatch": { "matches": true, "pattern": "link" },
+      "animationMatch": { "matches": true },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-heading-news",
+      "label": "News (panel trigger)",
+      "tapMatch": { "matches": true, "notes": "Opens sub-panel with slide-in animation" },
+      "behaviorMatch": { "matches": true, "pattern": "slide-in-panel", "subItemCount": 9, "backButton": true, "nestedTriggers": ["Navy News Magazine"] },
+      "animationMatch": { "matches": true, "sourceSpeed": "0.5s", "migratedSpeed": "0.5s", "type": "transform translateX" },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-cta-find-a-role",
+      "label": "CTA: Find a role",
+      "tapMatch": { "matches": true, "notes": "Pill-shaped link to /careers/find-a-role" },
+      "behaviorMatch": { "matches": true, "pattern": "cta-link" },
+      "animationMatch": { "matches": true },
+      "styling": { "borderRadius": "30px", "border": "2px solid rgb(0,22,59)", "textTransform": "uppercase" },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-cta-start-application",
+      "label": "CTA: Start your application",
+      "tapMatch": { "matches": true, "notes": "Pill-shaped link to /careers/register-interest" },
+      "behaviorMatch": { "matches": true, "pattern": "cta-link" },
+      "animationMatch": { "matches": true },
+      "styling": { "borderRadius": "30px", "border": "2px solid rgb(0,22,59)", "textTransform": "uppercase" },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-nav-typography",
+      "label": "Nav item typography",
+      "tapMatch": { "matches": true },
+      "behaviorMatch": { "matches": true, "notes": "18px/700 Big Shoulders Text, uppercase, 1.8px letter-spacing, navy color rgb(0,22,59) — matches source spec" },
+      "animationMatch": { "matches": true },
+      "status": "validated"
+    },
+    {
+      "id": "mobile-body-lock",
+      "label": "Body scroll lock when nav open",
+      "tapMatch": { "matches": true },
+      "behaviorMatch": { "matches": true, "notes": "body.nav-open class applied, overflow: hidden" },
+      "animationMatch": { "matches": true },
+      "status": "validated"
+    }
+  ]
+}

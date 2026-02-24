@@ -1,0 +1,82 @@
+{
+  "source": "https://www.royalnavy.mod.uk/",
+  "rows": [
+    {
+      "rowIndex": 0,
+      "elements": [
+        {
+          "id": "row-0-banner-marker",
+          "label": "Teal dot marker",
+          "type": "decoration",
+          "selector": ".nav-banner .banner-marker",
+          "hoverBehavior": {
+            "hasEffect": false,
+            "description": "none"
+          },
+          "clickBehavior": {
+            "navigates": false,
+            "description": "none"
+          }
+        },
+        {
+          "id": "row-0-banner-text",
+          "label": "Recruiting now text",
+          "type": "text",
+          "selector": ".nav-banner .banner-text",
+          "hoverBehavior": {
+            "hasEffect": false,
+            "description": "none"
+          },
+          "clickBehavior": {
+            "navigates": false,
+            "description": "none"
+          }
+        },
+        {
+          "id": "row-0-banner-link",
+          "label": "Explore navy careers link",
+          "type": "link",
+          "selector": ".nav-banner .banner-link",
+          "hoverBehavior": {
+            "hasEffect": true,
+            "description": "underline animation scaleX 0 to 1 from left 0.3s ease via after pseudo-element"
+          },
+          "clickBehavior": {
+            "navigates": true,
+            "description": "navigates to careers page",
+            "url": "/careers"
+          }
+        },
+        {
+          "id": "row-0-logo",
+          "label": "Royal Navy logo/crest",
+          "type": "logo",
+          "selector": ".nav-logo",
+          "hoverBehavior": {
+            "hasEffect": true,
+            "description": "cursor pointer"
+          },
+          "clickBehavior": {
+            "navigates": true,
+            "description": "navigates to homepage",
+            "url": "/"
+          }
+        },
+        {
+          "id": "row-0-hamburger",
+          "label": "Hamburger menu button",
+          "type": "button",
+          "selector": ".nav-hamburger",
+          "hoverBehavior": {
+            "hasEffect": true,
+            "description": "background-color changes to rgba(255,255,255,0.2) with 0.3s transition"
+          },
+          "clickBehavior": {
+            "navigates": false,
+            "description": "opens off-canvas slide-in navigation panel from right with teal background"
+          }
+        }
+      ]
+    }
+  ]
+}
