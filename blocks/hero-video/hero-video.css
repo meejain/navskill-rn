@@ -1,0 +1,109 @@
+/* Hero section: full-bleed, pulled behind header nav */
+
+/* Matches specificity of main > .section:first-of-type { margin-top: 0 } */
+main > .section.hero-video-container {
+  margin: 0;
+  margin-top: calc(-1 * var(--nav-height, 64px));
+}
+
+.hero-video-container .hero-video-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.hero-video {
+  position: relative;
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* Background media layer */
+.hero-video .hero-video-media {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero-video .hero-video-media video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-video .hero-video-media picture {
+  position: absolute;
+  inset: 0;
+}
+
+.hero-video .hero-video-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Hide fallback picture when video is playing */
+.hero-video .hero-video-media video + picture {
+  opacity: 0;
+}
+
+/* Dark navy gradient at the bottom for text readability */
+.hero-video::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    #0b1a3e 0%,
+    rgb(11 26 62 / 80%) 15%,
+    rgb(11 26 62 / 40%) 35%,
+    transparent 60%
+  );
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Overlay text at bottom */
+.hero-video .hero-video-overlay {
+  position: relative;
+  z-index: 1;
+  padding: 80px 24px 60px;
+  width: 100%;
+}
+
+.hero-video .hero-video-overlay p {
+  font-family: var(--heading-font-family, sans-serif);
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  margin: 0;
+  max-width: 900px;
+}
+
+@media (width >= 600px) {
+  .hero-video .hero-video-overlay p {
+    font-size: 4rem;
+  }
+}
+
+@media (width >= 900px) {
+  .hero-video .hero-video-overlay {
+    padding: 100px 64px 80px;
+  }
+
+  .hero-video .hero-video-overlay p {
+    font-size: 5.5rem;
+    max-width: 1000px;
+  }
+}
+
+@media (width >= 1200px) {
+  .hero-video .hero-video-overlay p {
+    font-size: 6.5rem;
+  }
+}

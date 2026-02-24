@@ -1,0 +1,59 @@
+{
+  "templates": [
+    {
+      "name": "careers-page",
+      "urls": ["https://www.royalnavy.mod.uk/careers"],
+      "description": "Royal Navy careers landing page with hero, video carousel, profession cards, pay & benefits, other ways to join, and CTAs",
+      "blocks": [
+        {
+          "name": "section-hero",
+          "instances": ["section[class*='SectionWrapper_firstSection']"],
+          "section": "dark"
+        },
+        {
+          "name": "hero",
+          "instances": ["[class*='IntroMedia_bgImageWrapper']"]
+        },
+        {
+          "name": "section-intro",
+          "instances": ["[class*='IntroTextSection_introTextSection']"],
+          "section": "dark"
+        },
+        {
+          "name": "carousel",
+          "instances": ["[data-carousel-type='video']"]
+        },
+        {
+          "name": "section-discover",
+          "instances": ["section[data-background-type='Dark'] [data-carousel-type='video']"],
+          "section": "dark"
+        },
+        {
+          "name": "columns",
+          "instances": [
+            "section[data-background-type='Gray'] [class*='GridContainerDoubleImages_gridRowDoubleImages']",
+            "[class*='OffsetMediaSide_content']",
+            "[class*='GridContainerDouble_gridMiddleBottom']"
+          ]
+        },
+        {
+          "name": "cards",
+          "instances": [
+            "[data-carousel-type='content']",
+            "section[data-background-type='Light'] [class*='GridContainerDoubleImages_gridRowDoubleImages']"
+          ]
+        },
+        {
+          "name": "section-pay-benefits",
+          "instances": ["section:nth-of-type(6)"],
+          "section": "dark"
+        },
+        {
+          "name": "section-cta",
+          "instances": ["section[data-background-type='Gray']:last-of-type"],
+          "section": ""
+        }
+      ]
+    }
+  ]
+}
