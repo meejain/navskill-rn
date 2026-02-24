@@ -1,0 +1,2424 @@
+{
+  "items": [
+    {
+      "id": "trigger-0",
+      "label": "Home",
+      "type": "nav-trigger",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-1",
+      "label": "What we do",
+      "type": "nav-trigger",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-1-panel-layout",
+      "label": "Panel layout (What we do)",
+      "type": "panel-layout",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "N/A",
+        "migratedDescription": "N/A"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "N/A",
+        "migratedDescription": "N/A"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "sourceDescription": "{\"layout\":\"vertical-list\",\"width\":\"410px\",\"hasBackButton\":true,\"backButtonLabel\":\"What we do\"}",
+        "migratedDescription": "{\"layout\":\"vertical-list\",\"width\":\"410px\",\"hasBackButton\":true,\"backButtonLabel\":\"Menu\"}"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-1-item-0",
+      "label": "What we do",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-1-item-1",
+      "label": "Prevent",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-1-item-2",
+      "label": "Protect",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-1-item-3",
+      "label": "Respond",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-2",
+      "label": "Organisation",
+      "type": "nav-trigger",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-2-panel-layout",
+      "label": "Panel layout (Organisation)",
+      "type": "panel-layout",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "N/A",
+        "migratedDescription": "N/A"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "N/A",
+        "migratedDescription": "N/A"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "sourceDescription": "{\"layout\":\"vertical-list\",\"width\":\"410px\",\"hasBackButton\":true,\"backButtonLabel\":\"Organisation\"}",
+        "migratedDescription": "{\"layout\":\"vertical-list\",\"width\":\"410px\",\"hasBackButton\":true,\"backButtonLabel\":\"Menu\"}"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-2-item-0",
+      "label": "Organisation",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-2-item-1",
+      "label": "Surface Fleet",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-2-item-2",
+      "label": "Submarine Service",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-2-item-3",
+      "label": "Fleet Air Arm",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-2-item-4",
+      "label": "Royal Marines",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-2-item-5",
+      "label": "Royal Fleet Auxiliary",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-2-item-6",
+      "label": "Maritime Reserves",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-2-item-7",
+      "label": "Units & squadrons",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-2-item-8",
+      "label": "Our people",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-2-item-8-item-0",
+      "label": "Our people",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-2-item-8-item-1",
+      "label": "Duty & commitment",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-2-item-8-item-2",
+      "label": "Our values",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-2-item-8-item-3",
+      "label": "Opportunities for all",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-2-item-8-item-4",
+      "label": "Leadership",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-2-item-9",
+      "label": "Cadets & youth",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3",
+      "label": "Equipment",
+      "type": "nav-trigger",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-panel-layout",
+      "label": "Panel layout (Equipment)",
+      "type": "panel-layout",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "N/A",
+        "migratedDescription": "N/A"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "N/A",
+        "migratedDescription": "N/A"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "sourceDescription": "{\"layout\":\"vertical-list\",\"width\":\"410px\",\"hasBackButton\":true,\"backButtonLabel\":\"Equipment\"}",
+        "migratedDescription": "{\"layout\":\"vertical-list\",\"width\":\"410px\",\"hasBackButton\":true,\"backButtonLabel\":\"Menu\"}"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-0",
+      "label": "All equipment",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-1",
+      "label": "Ships",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-1-item-0",
+      "label": "All ships",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-1-item-1",
+      "label": "Albion Class",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-1-item-2",
+      "label": "Archer Class",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-1-item-3",
+      "label": "Bay Class",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-1-item-4",
+      "label": "Casualty Ship",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-1-item-5",
+      "label": "City Class",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-1-item-6",
+      "label": "Cutlass Class",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-1-item-7",
+      "label": "Daring Class",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-1-item-8",
+      "label": "Duke Class",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-1-item-9",
+      "label": "Fort Class",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-1-item-10",
+      "label": "Hunt Class",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-1-item-11",
+      "label": "Inspiration Class",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-1-item-12",
+      "label": "Queen Elizabeth Class",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-1-item-13",
+      "label": "River Class",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-1-item-14",
+      "label": "Sandown Class",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-1-item-15",
+      "label": "Tide Class",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-1-item-16",
+      "label": "Wave Class",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-2",
+      "label": "Submarines",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-2-item-0",
+      "label": "All submarines",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-2-item-1",
+      "label": "Astute Class",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-2-item-2",
+      "label": "Dreadnought Class",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-2-item-3",
+      "label": "Trafalgar Class",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-2-item-4",
+      "label": "Vanguard Class",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-3",
+      "label": "Aircraft",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-3-item-0",
+      "label": "All aircraft",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-3-item-1",
+      "label": "F-35 Lightning",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-3-item-2",
+      "label": "Merlin",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-3-item-3",
+      "label": "Wildcat",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-4",
+      "label": "Royal Marines",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-4-item-0",
+      "label": "All equipment",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-4-item-1",
+      "label": "By Sea",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-4-item-2",
+      "label": "By Land",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-4-item-3",
+      "label": "By Air",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-3-item-4-item-4",
+      "label": "Weaponry",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-4",
+      "label": "Locations & Operations",
+      "type": "nav-trigger",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-4-panel-layout",
+      "label": "Panel layout (Locations & Operations)",
+      "type": "panel-layout",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "N/A",
+        "migratedDescription": "N/A"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "N/A",
+        "migratedDescription": "N/A"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "sourceDescription": "{\"layout\":\"vertical-list\",\"width\":\"410px\",\"hasBackButton\":true,\"backButtonLabel\":\"Locations & Operations\"}",
+        "migratedDescription": "{\"layout\":\"vertical-list\",\"width\":\"410px\",\"hasBackButton\":true,\"backButtonLabel\":\"Menu\"}"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-4-item-0",
+      "label": "All locations & operations",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-4-item-1",
+      "label": "Carrier Strike Group 2025",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-4-item-1-item-0",
+      "label": "Carrier Strike Group",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-4-item-1-item-1",
+      "label": "Carrier Strike Group Challenge",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-4-item-1-item-2",
+      "label": "Meet the Fleet",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-4-item-2",
+      "label": "Bases & stations",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-4-item-3",
+      "label": "Global operations",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-4-item-3-item-0",
+      "label": "All global operations",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-4-item-4",
+      "label": "Kings Harbour Master",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-4-item-4-item-0",
+      "label": "KHM Clyde",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-4-item-4-item-1",
+      "label": "KHM Plymouth",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-4-item-4-item-2",
+      "label": "KHM Portsmouth",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-5",
+      "label": "Careers",
+      "type": "nav-trigger",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-5-panel-layout",
+      "label": "Panel layout (Careers)",
+      "type": "panel-layout",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "N/A",
+        "migratedDescription": "N/A"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "N/A",
+        "migratedDescription": "N/A"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "sourceDescription": "{\"layout\":\"vertical-list-with-cta-buttons\",\"width\":\"410px\",\"hasBackButton\":true,\"backButtonLabel\":\"Careers\"}",
+        "migratedDescription": "{\"layout\":\"vertical-list-with-cta-buttons\",\"width\":\"410px\",\"hasBackButton\":true,\"backButtonLabel\":\"Menu\"}"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-5-item-0",
+      "label": "Royal Navy Careers",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-5-item-1",
+      "label": "Get in touch Careers",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-5-item-2",
+      "label": "Why Navy",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-5-item-3",
+      "label": "Life in the Navy",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-5-item-4",
+      "label": "Joining options",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-5-item-5",
+      "label": "Services",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-5-item-6",
+      "label": "Professions",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-5-item-7",
+      "label": "Royal Marines",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-5-item-8",
+      "label": "Royal Fleet Auxiliary",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-5-item-9",
+      "label": "Reserves",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-5-item-10",
+      "label": "Joining process",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-6",
+      "label": "Families & veterans",
+      "type": "nav-trigger",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-6-panel-layout",
+      "label": "Panel layout (Families & veterans)",
+      "type": "panel-layout",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "N/A",
+        "migratedDescription": "N/A"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "N/A",
+        "migratedDescription": "N/A"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "sourceDescription": "{\"layout\":\"vertical-list\",\"width\":\"410px\",\"hasBackButton\":true,\"backButtonLabel\":\"Families & veterans\"}",
+        "migratedDescription": "{\"layout\":\"vertical-list\",\"width\":\"410px\",\"hasBackButton\":true,\"backButtonLabel\":\"Menu\"}"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-6-item-0",
+      "label": "Families & veterans",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-6-item-1",
+      "label": "Families",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-6-item-2",
+      "label": "Veterans",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-7",
+      "label": "Events",
+      "type": "nav-trigger",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-8",
+      "label": "News",
+      "type": "nav-trigger",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-8-panel-layout",
+      "label": "Panel layout (News)",
+      "type": "panel-layout",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "N/A",
+        "migratedDescription": "N/A"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "N/A",
+        "migratedDescription": "N/A"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "sourceDescription": "{\"layout\":\"vertical-list\",\"width\":\"410px\",\"hasBackButton\":true,\"backButtonLabel\":\"News\"}",
+        "migratedDescription": "{\"layout\":\"vertical-list\",\"width\":\"410px\",\"hasBackButton\":true,\"backButtonLabel\":\"Menu\"}"
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-8-item-0",
+      "label": "News Home",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-8-item-1",
+      "label": "Fighting Arms",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-8-item-2",
+      "label": "Operational Activity",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-8-item-3",
+      "label": "Equipment and Tech",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-8-item-4",
+      "label": "People",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-8-item-5",
+      "label": "Community",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-8-item-6",
+      "label": "Navy News Magazine",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-8-item-6-item-0",
+      "label": "Contact Us",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-8-item-6-item-1",
+      "label": "Archive",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    },
+    {
+      "id": "trigger-8-item-6-item-2",
+      "label": "Navy News",
+      "type": "panel-item",
+      "hoverMatch": {
+        "matches": true,
+        "sourceDescription": "no effect",
+        "migratedDescription": "no effect"
+      },
+      "clickMatch": {
+        "matches": true,
+        "sourceDescription": "no action",
+        "migratedDescription": "no action"
+      },
+      "stylingMatch": {
+        "matches": true,
+        "hasImage": {
+          "source": false,
+          "migrated": false
+        }
+      },
+      "status": "validated"
+    }
+  ],
+  "summary": {
+    "totalItems": 107,
+    "hoverMatches": 107,
+    "clickMatches": 107,
+    "stylingMatches": 107,
+    "totalValidated": 107,
+    "totalFailed": 0
+  },
+  "allValidated": true
+}

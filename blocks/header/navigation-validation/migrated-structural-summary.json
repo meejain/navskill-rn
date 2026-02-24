@@ -1,0 +1,35 @@
+{
+  "rowCount": 1,
+  "rows": [
+    {
+      "index": 0,
+      "hasImages": true,
+      "elements": ["banner-marker", "banner-text", "banner-link", "logo", "hamburger"],
+      "alignmentGroups": [
+        { "position": "left", "elements": ["banner-marker", "banner-text", "banner-link"] },
+        { "position": "center", "elements": ["logo"] },
+        { "position": "right", "elements": ["hamburger"] }
+      ]
+    }
+  ],
+  "megamenu": {
+    "type": "off-canvas-slide-in-panel",
+    "columnCount": 0,
+    "hasImages": false,
+    "columns": [],
+    "navItems": 9,
+    "nestedLevels": 3,
+    "hasCtaButtons": true,
+    "panelWidth": "410px",
+    "panelBackground": "rgb(22, 208, 197)",
+    "overlayColor": "rgba(32, 38, 49, 0.75)"
+  },
+  "offCanvasPanel": {
+    "triggerType": "click",
+    "animationType": "slide-in-panel-right",
+    "hasCloseButton": true,
+    "hasOverlay": true,
+    "hasBackButtons": true,
+    "maxNestedDepth": 3
+  }
+}

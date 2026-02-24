@@ -1,0 +1,65 @@
+{
+  "viewport": "375x812",
+  "headerHeight": 110,
+  "bannerHeight": 46,
+  "headerInnerHeight": 64,
+  "hasBanner": true,
+  "hasLogo": true,
+  "hasHamburger": true,
+  "hasCloseButton": true,
+  "hasOverlay": true,
+  "navPanelWidth": "100%",
+  "navPanelBackground": "rgb(22, 208, 197)",
+  "navPanelPosition": "fixed",
+  "headerPosition": "fixed",
+  "headerBackground": "transparent",
+  "topLevelItems": {
+    "links": 2,
+    "triggers": 7,
+    "total": 9,
+    "items": [
+      { "label": "Home", "type": "link" },
+      { "label": "What we do", "type": "trigger", "hasSubPanel": true },
+      { "label": "Organisation", "type": "trigger", "hasSubPanel": true },
+      { "label": "Equipment", "type": "trigger", "hasSubPanel": true },
+      { "label": "Locations & Operations", "type": "trigger", "hasSubPanel": true },
+      { "label": "Careers", "type": "trigger", "hasSubPanel": true, "hasCTAs": true },
+      { "label": "Families & veterans", "type": "trigger", "hasSubPanel": true },
+      { "label": "Events", "type": "link" },
+      { "label": "News", "type": "trigger", "hasSubPanel": true }
+    ]
+  },
+  "subPanels": {
+    "total": 26,
+    "nested": 19,
+    "pattern": "slide-in-panel",
+    "hasDualBackButtons": true,
+    "backButtonBehavior": "top-back-returns-to-main-menu, immediate-back-returns-one-level"
+  },
+  "ctaButtons": {
+    "count": 2,
+    "items": [
+      { "label": "Find a role", "href": "/careers/find-a-role" },
+      { "label": "Start your application", "href": "/careers/register-interest" }
+    ]
+  },
+  "closeButton": {
+    "width": 44,
+    "height": 44,
+    "position": "absolute",
+    "top": 10,
+    "right": 10,
+    "background": "white",
+    "borderRadius": "50%"
+  },
+  "mobileBreakpoint": "899px",
+  "structuralMatch": true,
+  "notes": [
+    "Mobile nav panel is full viewport width (100%)",
+    "Same slide-in-panel pattern as desktop but full-width panels",
+    "Dual back buttons at nested levels (e.g., Equipment → Ships shows ← EQUIPMENT + ← SHIPS)",
+    "CTA buttons (Find a role, Start your application) appear at bottom of Careers sub-panel",
+    "Close button: 44×44px white circle with × icon, positioned top-right",
+    "Banner visible on mobile with smaller font-size (10px vs 16px desktop)"
+  ]
+}

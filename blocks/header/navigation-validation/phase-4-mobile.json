@@ -1,0 +1,95 @@
+{
+  "breakpointPx": 900,
+  "menuTrigger": "hamburger-icon",
+  "openBehavior": "slide-in-panel",
+  "tapVsHover": "tap-only",
+  "nestedBehavior": "slide-in-sub-panels-with-dual-back-buttons",
+  "hasMegamenuOnMobile": false,
+  "hamburgerAnimation": {
+    "type": "none",
+    "method": "separate-close-button",
+    "notes": "No hamburger-to-cross morph. A separate white circle × close button is on the nav panel itself."
+  },
+  "mobileMenuLayout": "slide-in-subpanel",
+  "accordionBehavior": null,
+  "slideInPanelBehavior": {
+    "direction": "right-to-left",
+    "hasBackButton": true,
+    "backButtonLabel": "← ParentCategory",
+    "transitionType": "css-transform-translateX",
+    "transitionDuration": "0.5s",
+    "hasDualBackButtons": true,
+    "dualBackButtonBehavior": "top-back-returns-to-main-menu, immediate-back-returns-one-level"
+  },
+  "hasSearchForm": false,
+  "hasLocaleSelector": false,
+  "mobileHeaderLayout": {
+    "bannerRow": {
+      "visible": true,
+      "height": 46,
+      "fontSize": "10px",
+      "fontWeight": "700",
+      "fontFamily": "Big Shoulders Text",
+      "textTransform": "uppercase",
+      "backgroundColor": "rgb(0, 22, 59)",
+      "color": "#fff",
+      "stacks": true,
+      "stacksAboveLogoRow": true
+    },
+    "logoRow": {
+      "height": 64,
+      "logoWidth": 60,
+      "logoHeight": 70,
+      "logoCentered": true,
+      "hamburgerRight": true,
+      "hamburgerSize": 40
+    },
+    "totalHeaderHeight": 110,
+    "headerPosition": "fixed",
+    "headerBackground": "transparent"
+  },
+  "navPanelMobile": {
+    "width": "100vw",
+    "height": "100dvh",
+    "backgroundColor": "rgb(22, 208, 197)",
+    "position": "fixed",
+    "zIndex": 12,
+    "transition": "0.5s",
+    "fullWidth": true
+  },
+  "closeButton": {
+    "width": 44,
+    "height": 44,
+    "top": 10,
+    "right": 10,
+    "borderRadius": "50%",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "border": "2px solid rgb(255, 255, 255)",
+    "position": "absolute"
+  },
+  "bodyLock": {
+    "overflow": "hidden",
+    "className": "hidden"
+  },
+  "navItemStyling": {
+    "fontSize": "18px",
+    "fontWeight": "700",
+    "fontFamily": "Big Shoulders Text, Arial",
+    "letterSpacing": "1.8px",
+    "textTransform": "uppercase",
+    "color": "rgb(0, 22, 59)"
+  },
+  "confidence": 0.95,
+  "uncertainty": false,
+  "notes": [
+    "Mobile uses identical slide-in-panel pattern as desktop — same behavior, just full-width panels.",
+    "Banner is VISIBLE on mobile (10px font-size vs 16px desktop), stacks above logo row.",
+    "Total mobile header height: 110px (46px banner + 64px logo row).",
+    "No hamburger-to-cross morph animation — separate white × close button on the nav panel.",
+    "Body gets class 'hidden' and overflow:hidden when nav is open.",
+    "Nav panel is full viewport width (375px = 100vw) on mobile.",
+    "Close button: 44×44px white circle with 2px solid white border, positioned top-right of panel.",
+    "Hamburger: 40×40px transparent circle, border-radius 50%, positioned right of logo row.",
+    "Same dual back button pattern at nested levels (e.g. Equipment → Ships shows ← EQUIPMENT + ← Ships)."
+  ]
+}

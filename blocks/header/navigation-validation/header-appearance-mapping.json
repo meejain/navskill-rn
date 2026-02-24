@@ -1,0 +1,12 @@
+{
+  "source": "https://www.royalnavy.mod.uk/",
+  "hasChanges": false,
+  "triggers": [],
+  "defaultAppearance": {
+    "background": "transparent",
+    "shadow": "none",
+    "border": "none"
+  },
+  "onInteractionAppearance": null,
+  "notes": "Header bar does not change appearance on hover or when nav panel opens. The off-canvas panel overlays the page independently."
+}

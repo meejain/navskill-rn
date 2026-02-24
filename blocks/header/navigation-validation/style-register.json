@@ -1,0 +1,187 @@
+{
+  "allValidated": false,
+  "components": [
+    {
+      "id": "row-0",
+      "label": "Header row 0 (header bar)",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "desktop"
+    },
+    {
+      "id": "row-0-logo",
+      "label": "Row 0 logo (Royal Navy crest)",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "desktop"
+    },
+    {
+      "id": "row-0-banner",
+      "label": "Row 0 banner (recruiting CTA)",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "desktop"
+    },
+    {
+      "id": "row-0-hamburger",
+      "label": "Row 0 hamburger button",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "desktop"
+    },
+    {
+      "id": "megamenu-panel",
+      "label": "Off-canvas nav panel (overall)",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "desktop"
+    },
+    {
+      "id": "megamenu-overlay",
+      "label": "Nav overlay backdrop",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "desktop"
+    },
+    {
+      "id": "megamenu-close-button",
+      "label": "Nav panel close button",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "desktop"
+    },
+    {
+      "id": "megamenu-trigger-0-home",
+      "label": "Nav item: Home (link)",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "desktop"
+    },
+    {
+      "id": "megamenu-trigger-1-what-we-do",
+      "label": "Nav item: What we do (panel trigger)",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "desktop"
+    },
+    {
+      "id": "megamenu-trigger-2-organisation",
+      "label": "Nav item: Organisation (panel trigger)",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "desktop"
+    },
+    {
+      "id": "megamenu-trigger-3-equipment",
+      "label": "Nav item: Equipment (panel trigger)",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "desktop"
+    },
+    {
+      "id": "megamenu-trigger-4-locations",
+      "label": "Nav item: Locations & Operations (panel trigger)",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "desktop"
+    },
+    {
+      "id": "megamenu-trigger-5-careers",
+      "label": "Nav item: Careers (panel trigger)",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "desktop"
+    },
+    {
+      "id": "megamenu-trigger-6-families",
+      "label": "Nav item: Families & veterans (panel trigger)",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "desktop"
+    },
+    {
+      "id": "megamenu-trigger-7-events",
+      "label": "Nav item: Events (link)",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "desktop"
+    },
+    {
+      "id": "megamenu-trigger-8-news",
+      "label": "Nav item: News (panel trigger)",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "desktop"
+    },
+    {
+      "id": "megamenu-trigger-1-panel",
+      "label": "What we do sub-panel",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "desktop"
+    },
+    {
+      "id": "megamenu-trigger-2-panel",
+      "label": "Organisation sub-panel",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "desktop"
+    },
+    {
+      "id": "megamenu-trigger-3-panel",
+      "label": "Equipment sub-panel",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "desktop"
+    },
+    {
+      "id": "megamenu-trigger-4-panel",
+      "label": "Locations & Operations sub-panel",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "desktop"
+    },
+    {
+      "id": "megamenu-trigger-5-panel",
+      "label": "Careers sub-panel",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "desktop"
+    },
+    {
+      "id": "megamenu-trigger-6-panel",
+      "label": "Families & veterans sub-panel",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "desktop"
+    },
+    {
+      "id": "megamenu-trigger-8-panel",
+      "label": "News sub-panel",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "desktop"
+    },
+    {
+      "id": "buttons-cta-0",
+      "label": "CTA: Find a role",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "desktop"
+    },
+    {
+      "id": "buttons-cta-1",
+      "label": "CTA: Start your application",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "desktop"
+    },
+    {
+      "id": "megamenu-back-button",
+      "label": "Back button in sub-panels",
+      "status": "pending",
+      "lastSimilarity": 0,
+      "viewport": "desktop"
+    }
+  ]
+}

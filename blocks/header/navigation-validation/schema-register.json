@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "id": "row-count",
+      "label": "Row count",
+      "source": 1,
+      "migrated": 1,
+      "matches": true,
+      "status": "validated",
+      "delta": null
+    },
+    {
+      "id": "row-0-images",
+      "label": "Row 0 images",
+      "source": true,
+      "migrated": true,
+      "matches": true,
+      "status": "validated",
+      "delta": null
+    },
+    {
+      "id": "row-0-elements",
+      "label": "Row 0 elements",
+      "source": "hamburger, link, logo, marker, text",
+      "migrated": "banner-link, banner-marker, banner-text, hamburger, logo",
+      "matches": true,
+      "status": "validated",
+      "delta": null
+    },
+    {
+      "id": "row-0-alignment",
+      "label": "Row 0 alignment groups",
+      "source": "center, left, right",
+      "migrated": "center, left, right",
+      "matches": true,
+      "status": "validated",
+      "delta": null
+    },
+    {
+      "id": "megamenu-type",
+      "label": "Navigation pattern type",
+      "source": "slide-in-panel-right",
+      "migrated": "off-canvas-slide-in-panel",
+      "matches": true,
+      "status": "validated",
+      "delta": null
+    },
+    {
+      "id": "megamenu-columns",
+      "label": "Megamenu column count",
+      "source": 0,
+      "migrated": 0,
+      "matches": true,
+      "status": "validated",
+      "delta": null
+    },
+    {
+      "id": "megamenu-images",
+      "label": "Megamenu images",
+      "source": false,
+      "migrated": false,
+      "matches": true,
+      "status": "validated",
+      "delta": null
+    },
+    {
+      "id": "megamenu-nesting",
+      "label": "Nesting levels",
+      "source": 3,
+      "migrated": 3,
+      "matches": true,
+      "status": "validated",
+      "delta": null
+    },
+    {
+      "id": "megamenu-nav-items",
+      "label": "Nav item count",
+      "source": 9,
+      "migrated": 9,
+      "matches": true,
+      "status": "validated",
+      "delta": null
+    },
+    {
+      "id": "megamenu-cta",
+      "label": "CTA buttons",
+      "source": true,
+      "migrated": true,
+      "matches": true,
+      "status": "validated",
+      "delta": null
+    },
+    {
+      "id": "megamenu-overlay",
+      "label": "Overlay behavior",
+      "source": true,
+      "migrated": true,
+      "matches": true,
+      "status": "validated",
+      "delta": null
+    }
+  ],
+  "summary": {
+    "totalComponents": 11,
+    "validated": 11,
+    "pending": 0,
+    "similarity": 100,
+    "threshold": 95,
+    "passes": true
+  },
+  "allValidated": true
+}
