@@ -89,11 +89,15 @@ function buildSubPanel(items, parentLabel, onBack, topParentLabel) {
   return { panel, list, heading };
 }
 
-function processNavItems(ul, container, parentLabel) {
+function getDirectLink(li) {
+  return li.querySelector(':scope > a') || li.querySelector(':scope > p > a');
+}
+
+function processNavItems(ul, container) {
   const items = ul.querySelectorAll(':scope > li');
 
   items.forEach((item) => {
-    const link = item.querySelector(':scope > a');
+    const link = getDirectLink(item);
     const subUl = item.querySelector(':scope > ul');
 
     if (!link) return;
@@ -139,7 +143,7 @@ function processNavItems(ul, container, parentLabel) {
       // Process sub-items recursively
       const subItems = subUl.querySelectorAll(':scope > li');
       subItems.forEach((subItem) => {
-        const subLink = subItem.querySelector(':scope > a');
+        const subLink = getDirectLink(subItem);
         const nestedUl = subItem.querySelector(':scope > ul');
 
         if (!subLink) return;
@@ -358,7 +362,7 @@ export default async function decorate(block) {
   if (navSections) {
     const navUl = navSections.querySelector('ul');
     if (navUl) {
-      processNavItems(navUl, navContent, '');
+      processNavItems(navUl, navContent);
     }
   }
 
